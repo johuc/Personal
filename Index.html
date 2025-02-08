@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Te amo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Felices 1 año, 9 meses</h1>
+        <p>Haz clic en una flor para ver un mensaje especial 🌸</p>
+        <div class="garden">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Rosa_Red_Chateau01.jpg/200px-Rosa_Red_Chateau01.jpg" class="flower" onclick="showMessage(0)">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Sunflower_sky_backdrop.jpg/200px-Sunflower_sky_backdrop.jpg" class="flower" onclick="showMessage(1)">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tulip_-_floriade_canberra.jpg/200px-Tulip_-_floriade_canberra.jpg" class="flower" onclick="showMessage(2)">
+        </div>
+        
+        <p id="message" class="message hidden"></p>
+        
+        <script>
+            const messages = [
+                "Eres mi rosa más hermosa 🌹",
+                "Tú iluminas mi vida como un girasol al sol ☀️",
+                "Eres tan especial como un campo de tulipanes en primavera 💐"
+            ];
+    
+            function showMessage(index) {
+                const messageElement = document.getElementById('message');
+                messageElement.textContent = messages[index];
+                messageElement.classList.remove('hidden');
+            }
+        </script>
+</body>
+</html>

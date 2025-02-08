@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #ffe6f2;
+}
+h1 {
+    color: #d63384;
+}
+.garden {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+.flower {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.flower:hover {
+    transform: scale(1.2);
+}
+.message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #b22222;
+}
+.hidden {
+    display: none;
+}
