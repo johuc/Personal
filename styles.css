@@ -4,7 +4,7 @@ body {
     background-color: #ffe6f2;
 }
 h1 {
-    color: #d63384;
+    color: rgb(214, 51, 132);
 }
 .garden {
     display: flex;
@@ -29,4 +29,13 @@ h1 {
 }
 .hidden {
     display: none;
+}
+.counter {
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+    background-color: rgb(214, 51, 132);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
 }
