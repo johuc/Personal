@@ -68,3 +68,25 @@ h1 {
     align-items: center;
     margin-top: 50px;
 }
+button {
+    padding: 15px 30px;
+    background-color: #ffa6bc;
+    color: #000000;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+button:hover {
+    background-color: #ff1a3d;
+}
+.song {
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+    background-color: rgb(214, 51, 132);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
